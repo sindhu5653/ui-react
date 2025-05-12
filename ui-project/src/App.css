@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  font-family:sans-serif;
+  background-color: white;
+  
+}
+
+.top {
+  background-color: #0ea175;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: white;
+}
+
+.logo h1 {
+  font-size: 32px;
+  color: black;
+  text-decoration: underline;
+}
+
+.head{
+  display: flex;
+  gap: 20px;
+}
+
+.heading {
+  text-align: right;
+  gap: 10px;
+}
+
+.heading h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+.heading p {
+  font-size: 12px;
+  color: grey;
+  font-style: italic;
+}
+
+
+.list {
+  background-color: white;
+  padding: 15px 20px;
+  border-top: 1px solid grey;
+}
+
+.list ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: lightskyblue;
+}
+
+.image img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.text {
+  max-width: 500px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.text h2 {
+  font-size: 80px;
+  color: black;
+  margin-bottom: 10px;
+  font-family: "Edu QLD Beginner", cursive;
+  font-weight: 900;
+}
+
+.text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 200;
+}
+
+.boxes {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.box1 {
+  padding: 15px 25px;
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.box2 {
+  padding: 15px 25px;
+  background-color: white;
+  color: green;
+  border: 1px solid grey;
+  font-weight: 600;
+  cursor: pointer;
+}
+
