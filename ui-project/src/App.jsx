@@ -1,5 +1,12 @@
 import React from "react";
 import "./App.css";
+import { CiLocationOn } from "react-icons/ci";
+// import { IoIosSearch } from "react-icons/io";
+// import { BiBasket } from "react-icons/bi";
+// import { LuMessageCircleMore } from "react-icons/lu";
+// import { TbManFilled } from "react-icons/tb";
+import { LiaLongArrowAltRightSolid } from "react-icons/lia";
+
 
 const Task = () => {
   return (
@@ -17,17 +24,24 @@ const Task = () => {
           <div className="heading">
             <h3>Store Locator</h3>
             <p>My Plant Shop</p>
+            <CiLocationOn className="location"/>
           </div>
 
           <div className="heading">
             <h3>Find Product</h3>
             <p>Quick Search</p>
+            {/* <IoIosSearch className="search"/> */}
           </div>
 
           <div className="heading">
             <h3>Hello, Sign In</h3>
             <p>Your Account</p>
           </div>
+
+          {/* <div className="heading">
+            <h3>{0}</h3>
+            <BiBasket className="basket" />
+            </div> */}
         </div>
       </header>
 
@@ -58,14 +72,29 @@ const Task = () => {
       <p>Fill your home with plants.</p>
 
       <div className="boxes">
-        <div className="box1">Live Plants</div>
-        <div className="box2">New Arrivals</div>
+        <div className="box1">Live Plants 
+        <LiaLongArrowAltRightSolid className="arrow" />
+        </div>
+        <div className="box2">New Arrivals
+        <LiaLongArrowAltRightSolid />
+        </div>
       </div>
     </div>
 
     <div className="image">
       <img src="image.jpeg" alt="plant"/>
     </div>
+
+    {/* <TbManFilled /> */}
+
+    {/* <LuMessageCircleMore /> */}
+
+
+  </div>
+
+  <div className="main3">
+    <h3>What People Are Saying</h3>
+    <p>Thank you so much for getting back to me about my plant concern! I'm greatful that customer service does still exit.</p>
 
   </div>
 </main>
