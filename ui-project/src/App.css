@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 .top {
   background-color: #0ea175;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px;
   font-size: 14px;
   font-weight: 500;
   color: white;
@@ -17,7 +17,6 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   padding: 10px;
   background-color: white;
 }
@@ -51,10 +50,14 @@
   font-style: italic;
 }
 
+.basket{
+  font-size: 25px;
+  color: black;
+}
+
 .location{
   color: black;
   font-size: 25px;
-  margin-top: auto;
 }
 
 .search{
@@ -64,7 +67,7 @@
 
 .list {
   background-color: white;
-  padding: 15px 20px;
+  padding: 10px;
   border-top: 1px solid grey;
 }
 
@@ -72,21 +75,21 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .list li a {
   text-decoration: none;
   color: black;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 13px;
 }
 .card{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 40px 20px;
-  background-color: lightskyblue;
+  background-color: rgb(199, 232, 252);
 }
 
 .text {
@@ -122,15 +125,17 @@
   color: white;
   font-weight: 600;
   cursor: pointer;
+  display: flex;
 }
 
 .box2 {
-  padding: 15px 25px;
+  padding: 5px ;
   background-color: white;
   color: green;
   border: 1px solid rgb(236, 233, 233);
   font-weight: 600;
   cursor: pointer;
+  display: flex;
 }
 
 .image img {
@@ -148,4 +153,10 @@
 
 .main3 p{
   text-align: center;
+}
+
+.main3 .message{
+  width: 30px;
+  height: 30px;
+  margin-left: 1320px;
 }

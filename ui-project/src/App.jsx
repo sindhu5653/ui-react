@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { CiLocationOn } from "react-icons/ci";
-// import { IoIosSearch } from "react-icons/io";
-// import { BiBasket } from "react-icons/bi";
-// import { LuMessageCircleMore } from "react-icons/lu";
+import { IoIosSearch } from "react-icons/io";
+import { BiBasket } from "react-icons/bi";
+import { LuMessageCircleMore } from "react-icons/lu";
 // import { TbManFilled } from "react-icons/tb";
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 
@@ -15,7 +15,7 @@ const Task = () => {
         <h4>Free Shipping + 30 Day Guarantee</h4>
       </div>
 
-      <header className="header">
+      <div className="header">
         <div className="logo">
           <h1>The Sill</h1>
         </div>
@@ -30,7 +30,7 @@ const Task = () => {
           <div className="heading">
             <h3>Find Product</h3>
             <p>Quick Search</p>
-            {/* <IoIosSearch className="search"/> */}
+            <IoIosSearch className="search"/>
           </div>
 
           <div className="heading">
@@ -38,15 +38,15 @@ const Task = () => {
             <p>Your Account</p>
           </div>
 
-          {/* <div className="heading">
-            <h3>{0}</h3>
+          <div className="heading">
+            {/* <h3>{0}</h3>  */}
             <BiBasket className="basket" />
-            </div> */}
+            </div>
         </div>
-      </header>
+      </div>
 
       
-      <nav className="list">
+      <div className="list">
         <ul>
           <li><a href="#">Deals</a></li>
           <li><a href="#">Plants</a></li>
@@ -61,10 +61,8 @@ const Task = () => {
           <li><a href="#">Subscriptions</a></li>
           <li><a href="#">Corporate Gifting</a></li>
         </ul>
-      </nav>
+      </div>
 
-     
-      <main className="main2">
   <div className="card">
     
     <div className="text">
@@ -73,7 +71,7 @@ const Task = () => {
 
       <div className="boxes">
         <div className="box1">Live Plants 
-        <LiaLongArrowAltRightSolid className="arrow" />
+        <LiaLongArrowAltRightSolid />
         </div>
         <div className="box2">New Arrivals
         <LiaLongArrowAltRightSolid />
@@ -87,8 +85,6 @@ const Task = () => {
 
     {/* <TbManFilled /> */}
 
-    {/* <LuMessageCircleMore /> */}
-
 
   </div>
 
@@ -96,10 +92,11 @@ const Task = () => {
     <h3>What People Are Saying</h3>
     <p>Thank you so much for getting back to me about my plant concern! I'm greatful that customer service does still exit.</p>
 
-  </div>
-</main>
+    <LuMessageCircleMore className="message"/>
 
-    </div>
+
+  </div>
+</div>
   );
 };
 
